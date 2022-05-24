@@ -37,3 +37,4 @@ LEFT JOIN DWH.DimProduct dp on 	MiAmProductCode = TRY_CAST(ProductCode AS NUMERI
 LEFT JOIN ODS.AbsaSalariedCustomer asc2 on MiAmCustomerIdr = asc2.CifNumber
 group by 	fad.MiAmCustomerIdr
 ;
+-- commit changes
